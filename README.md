@@ -5,12 +5,15 @@ on this package instead of the source one skips cloning and compiling the 40+ tr
 grammar packages, which are statically linked into the framework.
 
 This repository holds only the generated `Package.swift`. The framework itself is
-attached to the [v0.11.0 release](https://github.com/matiaskorhonen/doop-editor/releases/tag/v0.11.0)
+attached to the [v0.11.1 release](https://github.com/matiaskorhonen/doop-editor/releases/tag/v0.11.1)
 of the source repository, and each tag here matches a tag there.
+
+Release notes live with the source repository too, on its
+[releases page](https://github.com/matiaskorhonen/doop-editor/releases).
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/matiaskorhonen/doop-editor-binary.git", from: "0.11.0"),
+    .package(url: "https://github.com/matiaskorhonen/doop-editor-binary.git", from: "0.11.1"),
 ],
 ```
 
@@ -37,5 +40,5 @@ bundled dependency's licence in full. Tools that read a package's `LICENSE` verb
 `THIRD-PARTY-LICENSES.md` is the same set of notices on its own, with a summary table of what is
 bundled at which version.
 
-Generated for v0.11.0 by `Scripts/generate-binary-manifest.swift` in the source repository --
-do not edit by hand; changes here are overwritten by the next release.
+<!-- Generated for v0.11.1 by Scripts/generate-binary-manifest.swift in the source
+repository. Do not edit by hand; changes here are overwritten by the next release. -->
